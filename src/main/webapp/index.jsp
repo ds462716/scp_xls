@@ -80,7 +80,7 @@
 	</div>
 </div>
 <div class="main">
-	<h2><span><a href="${ctx}/zwh.jsp">查看更多+</a></span><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="${ctx}/zwh.jsp">大会主席</a></h2>
+	<h2><span><a href="${ctx}/dhzx.jsp">查看更多+</a></span><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="${ctx}/dhzx.jsp">大会主席</a></h2>
 	<div class="box_qh" id="qh01">
 		<div class="qh_top">
 			<ul id="tabs_head">
@@ -155,7 +155,7 @@
 		</div>
 </div>
 <div class="main">
-	<h2><span><a href="${ctx}/fyhk.jsp">查看更多+</a></span><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="${ctx}/fyhk.jsp">峰会嘉宾</a></h2>
+	<h2><span><a href="${ctx}/fhjb.jsp">查看更多+</a></span><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="${ctx}/fhjb.jsp">峰会嘉宾</a></h2>
 	<div class="fyhk">
 		<p>
 			祝卓宏 中国科学院心理研究所 教授、博士后导师<br/>
@@ -173,7 +173,7 @@
 </div>
 <div class="main_bg">
 	<div class="main">
-		<h2><span><a href="${ctx}/fyhk.jsp">查看更多+</a></span><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="${ctx}/fyhk.jsp">会议缴费</a></h2>
+		<h2><span><a href="${ctx}/hyjf.jsp">查看更多+</a></span><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="${ctx}/hyjf.jsp">会议缴费</a></h2>
 		<div class="fyhk">
 			<h3>会议费</h3>
 			<p>
