@@ -761,6 +761,10 @@ ul.abdtbox li.right .jx {
 		margin-bottom: 20px;
 	}
 
+	.topbox {
+		background: url(../images/top01.png) 20%;
+	}
+
 	.topbox .imbox {
 		width: 330px;
 		text-align: center;
