@@ -12,8 +12,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport"
 	      content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
-	<link rel="shortcut icon" href="<%=path%>/static/assets/ico/favicon.ico">
-	<title>第三届食品科学与人类健康国际研讨会_食品科学网</title>
+	<%--<link rel="shortcut icon" href="<%=path%>/static/assets/ico/favicon.ico">--%>
+	<title>中国首届接纳承诺疗法（ACT）峰会</title>
 	<link rel="stylesheet" type="text/css" href="<%=path%>/static/spkx/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<%=path%>/static/spkx/css/style.css"/>
 

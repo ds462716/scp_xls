@@ -11,8 +11,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-	<link rel="shortcut icon" href="<%=path%>/static/assets/ico/favicon.ico">
-	<title>3rd International Symposium of <i>Food Science and Human Wellness</i></title>
+	<%--<link rel="shortcut icon" href="<%=path%>/static/assets/ico/favicon.ico">--%>
+	<title>中国首届接纳承诺疗法（ACT）峰会</title>
 	<link rel="stylesheet" type="text/css" href="<%=path%>/static/spkx/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<%=path%>/static/spkx/css/style.css" />
 
@@ -25,47 +25,52 @@
 
 <body>
 <!-- 头部模块 -->
-<%@include file="/inc/en_headbar.jsp" %>
+<%@include file="/inc/headbar.jsp" %>
 
 <div class="main">
-	<h2 style="margin-bottom:30px;"><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/>Organizers</h2>
-	<div class="zzjgbox">
-		<ul class="abdtbox">
-			<li class="left">Organizers</li>
-			<li class="right"><div class="ico"></div><p>International Association for Cereal Science and Technology (ICC)<br>
-				Beijing Academy of Food Sciences (BAFS), China<br>
-				<i>FOOD SCIENCE</i> Editorial Department (FSED), China Food Publishing Co., China<br>
-				<i>Food Science and Human Wellness</i> Editorial Department, China Food Publishing Co., China
-			</p><div class="jx"></div></li>
-			<div class="clear"></div>
-		</ul>
-		<ul class="abdtbox">
-			<li class="left">Supporting Sponsors</li>
-			<li class="right"><div class="ico"></div>
-				<p>American Association of Cereal Chemists International</i> (AACC International)<br>
-					<i>Journal of Food Science</i> (Indexed by SCI)<br>
-					<i>Journal of Agricultural and Food Chemistry</i></i> (Indexed by SCI)<br>
-					<i>Food and Bioprocess Technology</i> (Indexed by SCI)<br>
-					<i>Journal of Food and Drug Analysis</i> (Indexed by SCI)<br>
-					<i>Journal of Functional Foods</i> (Indexed by SCI)<br>
-					<i>Food Chemistry</i> (Indexed by SCI)</p><div class="jx"></div></li>
-			<div class="clear"></div>
-		</ul>
-		<ul class="abdtbox">
-			<li class="left">Co-organizers</li>
-			<li class="right"><div class="ico"></div>
-				<p>College of Food Science and Engineering, Jilin University, China<br>
-					The Chinese American Food Society (CAFS), USA</p><div class="jx"></div></li>
-			<div class="clear"></div>
-		</ul>
-		<ul class="abdtbox">
-			<li class="left">Financial Sponsors</li>
-			<li class="right"><div class="ico"></div><p>Beijing Ensoul Tech. Co., Ltd., China</p><div class="jx"></div></li>
-			<div class="clear"></div>
-		</ul>
+	<h2><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="#">大会主席</a></h2>
+	<div class="box_qh" id="qh01">
+		<div class="qh_top">
+			<ul id="tabs_head">
+				<li class='menu_tab_li'><a href="#">学术委员会</a></li>
+				<li class='menu_tab_li'><a href="#">组织委员会</a></li>
+			</ul>
+		</div>
+		<div class="liebbox" id="tabs_body">
+			<ul>
+				<!--tab模块1-->
+				<li id="s_1">
+					<div class="txtbox col-sm-8 col-xs-12">
+						学术委员会主席：祝卓宏 中国科学院心理研究所<br/>
+						学术委员会委员：方双虎，张婍，高志青，宗焱，胡茂荣，刘健，徐守森，刘希庆，曹慧，白晓宇<br/>
+						秘书长：张婍 北京联合大学师范学院
+					</div>
+				</li>
+			</ul>
+			<ul>
+				<!--tab模块2-->
+				<li id="s_2" style="display:none;">
+					<div class="txtbox col-sm-8 col-xs-12">
+						组织委员会主席：曹慧 北京教育学院<br/>
+						秘书长：白晓宇 中国科学院心理研究所<br/>
+						秘书组：曹静，熊朋迪，林丛
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+		<script language="javascript">
+            //                $("#qh01").tab(0, 'menu_tab_hover', 'mouseover');
+            $('#tabs_head li').hover(function(){
+                $(this).addClass('menu_tab_hover').siblings().removeClass('menu_tab_hover');
+                var index = $(this).prevAll().length;
+                $('#tabs_body ul li').css('display','none');
+                $('#tabs_body ul li').eq(index).css('display','block');
+            })
+		</script>
 	</div>
 </div>
-<%@include file="/inc/en_footer.jsp"%>
+<%@include file="/inc/footer.jsp"%>
 <script type='text/javascript' src='<%=path%>/dwr/engine.js'></script>
 <script type='text/javascript' src='<%=path%>/dwr/interface/RegisterService.js'></script>
 <c:if test="${not empty register}">

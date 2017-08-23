@@ -12,8 +12,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport"
 	      content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
-	<link rel="shortcut icon" href="<%=path%>/static/assets/ico/favicon.ico">
-	<title>第三届食品科学与人类健康国际研讨会_食品科学网</title>
+	<%--<link rel="shortcut icon" href="<%=path%>/static/assets/ico/favicon.ico">--%>
+	<title>中国首届接纳承诺疗法（ACT）峰会</title>
 	<link rel="stylesheet" type="text/css" href="<%=path%>/static/spkx/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<%=path%>/static/spkx/css/style.css"/>
 
@@ -28,40 +28,32 @@
 <!-- 头部模块 -->
 <%@include file="/inc/headbar.jsp" %>
 <div class="main">
-	<h2 style="margin-bottom:30px;"><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/>会议论文</h2>
+	<h2><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="#">会议征文</a></h2>
 	<div class="hylw row">
 		<div class="col-sm-8 col-xs-12">
 			<div class="left">
-				<h4>论文范围及要求</h4>
-				<p>与会议主题相关的学术论文，请严格按照杂志撰稿要求和投稿模板撰写。
-					<br> 《食品科学》投稿：请登录食品科学网
-					<a href="http://www.chnfood.cn" target="_blank">www.chnfood.cn</a>，从首页采编系统投稿；
-					<br> 《Food Science and Human Wellness》投稿：请登录网站<a href="http://ees.elsevier.com/fshw/" target="_blank">http://ees.elsevier.com/fshw/</a>投稿；
-					<br> 《Current Topics in Nutraceutical Research》投稿：请发送邮件至CTNutriRes@126.com；
-					<br> 《肉类研究》投稿：请登录网站
-					<a href="http://www.rlyj.pub" target="_blank">http://www.rlyj.pub</a>投稿；
-					<br> 《乳业科学与技术》投稿：请登录网站
-					<a href="http://rykj.cbpt.cnki.net" target="_blank">http://rykj.cbpt.cnki.net</a>投稿。</p>
-				<h4>论文发表费</h4>
-				<p>审核通过的稿件按书面录用通知缴纳版面费。</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本次ACT峰会欢迎参会者就会议主题撰写学术论文、应用文章，所有投稿均须为原创性文章。</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;参会文章必须是未在国内外期刊杂志、会议论文、或社交媒体上公开发表的原创性文章。每篇文章（中英文均可）要求8000字以内，摘要500-800字。需用Microsoft Word文档编辑（中文：宋体五号；英文：Time New Roman字体五号；单倍行距，全文注释采用美国心理学会APA格式），并注明论文题目、3-5个关键词、作者姓名、单位、通讯地址和电子邮箱等信息。
+				</p>
+				<p>
+					来稿请注明：作者姓名、单位、通信地址、电子邮箱和电话。
+				</p>
+				<p>
+					投稿截止日期：2017年10月31日
+				</p>
+				投稿联系人：中国科学院心理研究所 白晓宇
+				<p>
+					投稿电子信箱：act2011@126.com
+				</p>
+				<p>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;投稿并被录用后，编辑部会于2017年11月15日之前邮箱发送正式录用函给作者，所有被录用的文章将被收录进《2017年中国首届接纳承诺疗法（ACT）峰会会议论文集》。
+				</p>
 			</div>
 		</div>
 		<div class="col-sm-4 col-xs-12">
 			<div class="right">
 				<img src="<%=path%>/static/spkx/images/pic03.png" alt=""/>
-				<%--<h3>支持协办</h3>
-				<p>美国国际谷物化学家学会（AACCI）
-					<br> 《Journal of Food Science》杂志（SCI收录）
-					<br> 《Journal of Agricultural and Food Chemistry》杂志（SCI收录）
-					<br> 《Food and Bioprocess Technology》杂志（SCI收录）
-					<br> 《Journal of Functional Foods》杂志（SCI收录）
-					<br> 《Food Chemistry》杂志（SCI收录）
-					<br> 《Journal of Food and Drug Analysis》杂志（SCI收录）</p>--%>
 			</div>
-		</div>
-		<div class="col-sm-12 col-xs-12">
-			<h4>补充说明</h4>
-			<p>投递会议论文的代表，请先将论文通过四本杂志在线采编系统投递并获得稿件编号后，再及时进行会议注册，并将稿件标题、编号填入注册信息中。</p>
 		</div>
 	</div>
 </div>

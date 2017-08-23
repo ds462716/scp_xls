@@ -12,8 +12,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport"
 	      content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
-	<link rel="shortcut icon" href="<%=path%>/static/assets/ico/favicon.ico">
-	<title>3rd International Symposium of <i>Food Science and Human Wellness</i></title>
+	<%--<link rel="shortcut icon" href="<%=path%>/static/assets/ico/favicon.ico">--%>
+	<title>中国首届接纳承诺疗法（ACT）峰会</title>
 	<link rel="stylesheet" type="text/css" href="<%=path%>/static/spkx/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<%=path%>/static/spkx/css/style.css"/>
 
@@ -26,17 +26,19 @@
 
 <body>
 <!-- 头部模块 -->
-<%@include file="/inc/en_headbar.jsp" %>
+<%@include file="/inc/headbar.jsp" %>
 <div class="main">
-	<h2 style="margin-bottom:30px;"><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/>Papers</h2>
-	<div class="hylw" style="padding-bottom:50px;">
-		<p>Papers shall be submitted in the attachment in “.doc” format only. Original research papers which <br>
-			have not been published or accepted for publication elsewhere will be published in <i>FOOD SCIENCE</i>, <br>
-			<i>Food Science and Human Wellness</i>, <i>Meat Research</i>, or <i>Journal of Dairy Science and Technology</i> <br>
-			without extra charges after passing the peer review.</p>
+	<h2><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="#">招募志愿者</a></h2>
+	<div class="fyhk">
+		<p>
+
+			报名方式：<a href="https://www.sojump.hk/jq/15938153.aspx" target="_blank">https://www.sojump.hk/jq/15938153.aspx
+		</a><br/>
+			截止日期：2017年09月30日<br/>
+
 	</div>
 </div>
-<%@include file="/inc/en_footer.jsp"%>
+<%@include file="/inc/footer.jsp"%>
 <script type='text/javascript' src='<%=path%>/dwr/engine.js'></script>
 <script type='text/javascript' src='<%=path%>/dwr/interface/RegisterService.js'></script>
 <c:if test="${not empty register}">

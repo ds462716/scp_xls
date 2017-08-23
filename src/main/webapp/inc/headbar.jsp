@@ -21,13 +21,13 @@
 		<ul>
 			<li><a href="index.jsp">会议首页</a></li>
 			<li><a href="zzjg.jsp">组织机构</a></li>
-			<li><a href="zwh.jsp">大会主席</a></li>
-			<li><a href="hynr.jsp">时间地点</a></li>
-			<li><a href="bmfs.jsp">报名方式</a></li>
+			<li><a href="dhzx.jsp">大会主席</a></li>
+			<li><a href="sjdd.jsp">时间地点</a></li>
+			<%--<li><a href="bmfs.jsp">报名方式</a></li>--%>
 			<li><a href="hylw.jsp">会议征文</a></li>
-			<li><a href="zwh.jsp">峰会嘉宾</a></li>
-			<li><a href="fyhk.jsp">会议缴费</a></li>
-			<li><a href="bmfs.jsp">招募志愿者</a></li>
+			<li><a href="fhjb.jsp">峰会嘉宾</a></li>
+			<li><a href="hyjf.jsp">会议缴费</a></li>
+			<li><a href="zmzyz.jsp">招募志愿者</a></li>
 			<li><a href="hwz.jsp">会务组</a></li>
 			<%--<li><a href="download.jsp">资料下载</a></li>--%>
 			<div class="clear"></div>
@@ -61,13 +61,13 @@
 					</li>
 					<li><a href="index.jsp">会议首页</a></li>
 					<li><a href="zzjg.jsp">组织机构</a></li>
-					<li><a href="zwh.jsp">大会主席</a></li>
-					<li><a href="hynr.jsp">时间地点</a></li>
-					<li><a href="bmfs.jsp">报名方式</a></li>
+					<li><a href="dhzx.jsp">大会主席</a></li>
+					<li><a href="sjdd.jsp">时间地点</a></li>
+					<%--<li><a href="bmfs.jsp">报名方式</a></li>--%>
 					<li><a href="hylw.jsp">会议征文</a></li>
-					<li><a href="zwh.jsp">峰会嘉宾</a></li>
-					<li><a href="fyhk.jsp">会议缴费</a></li>
-					<li><a href="bmfs.jsp">招募志愿者</a></li>
+					<li><a href="fhjb.jsp">峰会嘉宾</a></li>
+					<li><a href="hyjf.jsp">会议缴费</a></li>
+					<li><a href="zmzyz.jsp">招募志愿者</a></li>
 					<li><a href="hwz.jsp">会务组</a></li>
 					<div class="clear"></div>
 				</ul>

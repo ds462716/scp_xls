@@ -10,7 +10,7 @@
     <link href="<%=path%>/res/asset/css/bootstrap.css" rel="stylesheet">
     <link href="<%=path%>/res/asset/css/echartsHome.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="<%=path%>/res/css/base.css">
-	<link rel="shortcut icon" href="<%=path%>/static/assets/ico/favicon.ico">
+	<%--<link rel="shortcut icon" href="<%=path%>/static/assets/ico/favicon.ico">--%>
 </head>
 <body>
     <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="head"></div>
