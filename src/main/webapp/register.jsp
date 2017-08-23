@@ -796,7 +796,7 @@
 				}
 			}
 			 $(that).addClass('disabled');
-			if ("console" in window)console.log(register);  //TODO:debug
+//			if ("console" in window)console.log(register);  //TODO:debug
 			RegisterService.hasRegisterByTel(register,function(has){
 				if(!has){
 					// alert(has);
