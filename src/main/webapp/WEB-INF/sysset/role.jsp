@@ -14,7 +14,7 @@
 	<!-- <link rel="stylesheet" href="<%=path%>/res/lib/zTree/css/ibos/ibos.css"> -->
 	<!-- <link rel="stylesheet" href="<%=path%>/res/lib/Select2/select2.css"> -->
 	<link rel="stylesheet" type="text/css" href="<%=path%>/res/lib/zTree/css/zTreeStyle/zTreeStyle.css"
-	<link rel="shortcut icon" href="<%=path%>/static/assets/ico/favicon.ico">
+	<%--<link rel="shortcut icon" href="<%=path%>/static/assets/ico/favicon.ico">--%>
 </head>
 <body>
     <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="head"></div>

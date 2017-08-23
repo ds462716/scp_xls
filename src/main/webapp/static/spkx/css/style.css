@@ -155,7 +155,7 @@ textarea {
 .topbox {
 	width: 100%;
 	height: 400px;
-	background: url(../images/top4.png) 100%;
+	background: url(../images/top01.png) 100%;
 	position: relative;
 }
 .topbox .lang {
@@ -196,7 +196,7 @@ textarea {
 }
 .navbox{width:100%; height:60px; background:#222; margin-bottom:20px;}
 .nav-spkx{width:1000px; height:60px; margin:0 auto;}
-.nav-spkx li{float:left; height:60px; font:normal 18px/59px Microsoft Yahei; color:#fff; padding:0 14px;}
+.nav-spkx li{float:left; height:60px; font:normal 18px/59px Microsoft Yahei; color:#fff; padding:0 19.5px;}
 .nav-spkx li a{color:#fff;}
 .nav-spkx li a:hover{color:#bae1ff; text-decoration:none;}
 

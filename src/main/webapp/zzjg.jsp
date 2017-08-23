@@ -11,8 +11,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-	<link rel="shortcut icon" href="<%=path%>/static/assets/ico/favicon.ico">
-	<title>第三届食品科学与人类健康国际研讨会_食品科学网</title>
+	<%--<link rel="shortcut icon" href="<%=path%>/static/assets/ico/favicon.ico">--%>
+	<title>中国首届接纳承诺疗法（ACT）峰会</title>
 	<link rel="stylesheet" type="text/css" href="<%=path%>/static/spkx/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<%=path%>/static/spkx/css/style.css" />
 
@@ -28,45 +28,37 @@
 <%@include file="/inc/headbar.jsp" %>
 
 <div class="main">
-	<h2 style="margin-bottom:30px;"><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/>组织机构</h2>
-	<div class="zzjgbox">
-		<ul class="abdtbox">
-			<li class="left">主办单位</li>
-			<li class="right"><div class="ico"></div><p>北京食品科学研究院<br>
-				中国食品杂志社《食品科学》杂志<br>
-				中国食品杂志社《Food Science and Human Wellness》杂志<br>
-				国际谷物科技学会（ICC）</p><div class="jx"></div></li>
-			<div class="clear"></div>
-		</ul>
-		<ul class="abdtbox">
-			<li class="left">共同主办</li>
-			<li class="right"><div class="ico"></div>
-				<p>吉林大学食品科学与工程学院<br>
-					华美食品学会（CAFS）</p><div class="jx"></div></li>
-			<div class="clear"></div>
-		</ul>
-		<ul class="abdtbox">
-			<li class="left">支持协办</li>
-			<li class="right"><div class="ico"></div>
+	<h2><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="#">组织机构</a></h2>
+	<div class="zzjg row">
+		<div class="col-sm-6 col-xs-12">
+			<div class="left">
+				<h3>主办单位</h3>
+				<p>国际语境行为科学协会中国分会（CACBS）</p>
+
+				<h3>承办单位</h3>
 				<p>
-					美国国际谷物化学家学会（AACCI）<br>
-					《Journal of Food Science》杂志（SCI收录）<br>
-					《Journal of Agricultural and Food Chemistry》杂志（SCI收录）<br>
-					《Food and Bioprocess Technology》杂志（SCI收录）<br>
-					《Journal of Functional Foods》杂志（SCI收录）<br>
-					《Food Chemistry》杂志（SCI收录）<br>
-					《Journal of Food and Drug Analysis》杂志（SCI收录）<br>
-					《Current Topics in Nutraceutical Research》杂志（SCI收录）
+					曼德福教育咨询有限公司
 				</p>
-				<div class="jx"></div>
-			</li>
-			<div class="clear"></div>
-		</ul>
-		<ul class="abdtbox">
-			<li class="left">赞助单位</li>
-			<li class="right"><div class="ico"></div><p>北京盈盛恒泰科技有限责任公司<br/>赛默飞世尔科技（中国）有限公司</p><div class="jx"></div></li>
-			<div class="clear"></div>
-		</ul>
+				<h3>协办单位</h3>
+				<p>
+					无忧岛，壹心理，暖心理，简单心理、壹点灵、飞凡心理
+				</p>
+			</div>
+		</div>
+		<div class="col-sm-6 col-xs-12">
+			<div class="right">
+				<img src="<%=path%>/static/spkx/images/pic01.png" alt="" />
+				<h3>技术支持</h3>
+				<p>
+					保利威视
+				</p>
+				<h3>媒体支持</h3>
+				<p>
+					CNTV，新华网，今日头条，搜狐
+				</p>
+			</div>
+		</div>
+		<div class="clear"></div>
 	</div>
 </div>
 <%@include file="/inc/footer.jsp"%>

@@ -11,11 +11,11 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-	<meta name="description" content="第三届食品科学与人类健康国际研讨会_食品科学网">
-	<meta name="author" content="北京国科智地科技有限公司">
-	<link rel="shortcut icon" href="<%=path%>/static/assets/ico/favicon.ico">
+	<meta name="description" content="中国首届接纳承诺疗法（ACT）峰会">
 
-	<title>第三届食品科学与人类健康国际研讨会_食品科学网</title>
+	<%--<link rel="shortcut icon" href="<%=path%>/static/assets/ico/favicon.ico">--%>
+
+	<title>中国首届接纳承诺疗法（ACT）峰会</title>
 	
 	<!-- Bootstrap core CSS -->
 	<link href="<%=path%>/static/css/bootstrap.min.css" rel="stylesheet">

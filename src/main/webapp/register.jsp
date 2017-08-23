@@ -11,11 +11,11 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-	<meta name="description" content="第三届食品科学与人类健康国际研讨会">
+	<meta name="description" content="中国首届接纳承诺疗法（ACT）峰会">
 	<meta name="author" content="北京国科智地科技有限公司">
-	<link rel="shortcut icon" href="<%=path%>/static/assets/ico/favicon.ico">
+	<%--<link rel="shortcut icon" href="<%=path%>/static/assets/ico/favicon.ico">--%>
 
-	<title>第三届食品科学与人类健康国际研讨会</title>
+	<title>中国首届接纳承诺疗法（ACT）峰会</title>
 
 	<!-- Bootstrap core CSS -->
 	<link href="<%=path%>/static/css/bootstrap.min.css" rel="stylesheet">
@@ -84,7 +84,7 @@
 							<input type="password" name="repassword" id="repassword" value="" class="form-control" autocomplete="off"  />
 						</div>
 					</div>
-					<div class="col-sm-4 col-sm-offset-2">
+					<div class="col-sm-4 col-sm-offset-2 hidden">
 						<div class="inputContainer">
 							<label class="screen-reader-text">职务：</label>
 							<input type="text" name="job" id="job" class="form-control" autocomplete="off" value="${register.job}" >
@@ -102,9 +102,11 @@
 							</select> -->
 						</div>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-4 col-sm-offset-2">
 						<div class="inputContainer">
 							<label class="screen-reader-text">职称：</label>
+							<%--<input type="text" name="title" id="title" class="form-control" autocomplete="off" value="${register.title}" >--%>
+
 							<select id="title" name="title" class="form-control" >
 									<option value="">请选择职称</option>
 									<option value="教授" ${not empty register and register.title eq '教授'?'selected="selected"':''}>教授</option>
@@ -129,13 +131,19 @@
 							</select>
 						</div>
 					</div>
-					<div class="col-sm-8 col-sm-offset-2">
+					<div class="col-sm-4">
 						<div class="inputContainer">
 							<label class="screen-reader-text">单位：</label>
 							<input type="text" name="company" id="company" value="${register.company}" class="form-control" autocomplete="off" />
 						</div>
 					</div>
 					<div class="col-sm-4 col-sm-offset-2">
+						<div class="inputContainer">
+							<label class="screen-reader-text">通信地址：</label>
+							<input type="text" name="address" id="address" value="${register.address}" class="form-control" autocomplete="off" />
+						</div>
+					</div>
+					<div class="col-sm-4 col-sm-offset-2 hidden">
 						<div class="inputContainer">
 							<label class="screen-reader-text">办公电话：</label>
 							<input type="text" name="officephone" id="officephone" class="form-control" autocomplete="off" value="${register.officephone}"/>
@@ -154,19 +162,14 @@
 							<p style="color:red ;${not empty register?'display:none':''} " >请尽量不要选择QQ邮箱，否则可能无法收到会务组发出的邮件</p>
 						</div>
 					</div>
-					<div class="col-sm-4 col-sm-offset-2">
-						<div class="inputContainer">
-							<label class="screen-reader-text">联系地址：</label>
-							<input type="text" name="address" id="address" value="${register.address}" class="form-control" autocomplete="off" />
-						</div>
-					</div>
-					<div class="col-sm-4">
+
+					<div class="col-sm-4 hidden">
 						<div class="inputContainer">
 							<label class="screen-reader-text">邮编：</label>
 							<input type="text" name="postcode" id="postcode" value="${register.postcode}" class="form-control" autocomplete="off"/>
 						</div>
 					</div>
-					<div class="col-sm-4 col-sm-offset-2">
+					<div class="col-sm-4 col-sm-offset-2 hidden">
 						<div class="inputContainer">
 							<label class="screen-reader-text">论文张贴否：</label>
 							<div class="form-control" style="line-height:20px;border:none">
@@ -179,7 +182,7 @@
 							</div>
 						</div>
 					</div>
-					<div id="lw_area" class="col-sm-4" style="${register.sfztlw eq '是'?'':'display:none'}">
+					<div id="lw_area" class="col-sm-4 hidden" style="${register.sfztlw eq '是'?'':'display:none'}">
 						<label class="screen-reader-text">论文上传：</label>
 						<input type="file" name="thesis" id="thesis" class="form-control" value="${thesis.filename}.${thesis.type}" ${not empty thesis?'style="display: none"':'style="display: inline"'} />
 							<%--<a id="fileName" class="form-control " href="<%=path%>/auth.do?method=download&fileid=${thesis.id}" ${not empty thesis?'style="display: inline"':'style="display: none"'}>${thesis.filename}.${thesis.type}</a><span class="input-group-addon" >重新上传</span>--%>
@@ -203,7 +206,7 @@
 							</div>
 						</c:if>--%>
 					</div>
-					<div class="col-sm-8 col-sm-offset-2">
+					<div class="col-sm-8 col-sm-offset-2 hidden">
 						<div class="inputContainer">
 							<label class="screen-reader-text">申请会上发言否：</label>
 							<div class="form-control" style="line-height:20px;border:none">
@@ -216,7 +219,7 @@
 							</div>
 						</div>
 					</div>
-					<div id="fy_area" class="alert alert-warning col-sm-8 col-sm-offset-2" style="${register.sfsqhyfy eq '是'?'':'display:none'}">
+					<div id="fy_area" class="alert alert-warning col-sm-8 col-sm-offset-2 hidden" style="${register.sfsqhyfy eq '是'?'':'display:none'}">
 						<div class="inputContainer">
 							<label class="screen-reader-text">发言题目：</label>
 							<input type="text" name="fytm" id="fytm" value="${register.fytm}" class="form-control" autocomplete="off" />
@@ -230,7 +233,7 @@
 							<textarea name="fynrzy" id="fyrjj" class="form-control" autocomplete="off" >${register.fyrjj}</textarea>
 						</div>
 					</div>
-					<div class="col-sm-8 col-sm-offset-2">
+					<div class="col-sm-8 col-sm-offset-2 hidden">
 						<div class="inputContainer">
 							<label class="screen-reader-text">发表论文否：</label>
 							<div class="form-control" style="line-height:20px;border:none">
@@ -243,7 +246,7 @@
 							</div>
 						</div>
 					</div>
-					<div id="gj_area" class="alert alert-warning col-sm-8 col-sm-offset-2" style="${register.sffblw eq '是'?'':'display:none'}">
+					<div id="gj_area" class="alert alert-warning col-sm-8 col-sm-offset-2 hidden" style="${register.sffblw eq '是'?'':'display:none'}">
 						<div class="inputContainer">
 							<label class="screen-reader-text">投稿期刊：</label>
 							<!-- <input type="text" name="journalname" id="journalname" value="${register.journalname}" class="form-control" autocomplete="off" ${not empty register?'disabled="disabled"':''}/> -->
@@ -266,7 +269,7 @@
 							<input type="text" name="gjtm" id="gjtm" value="${register.gjtm}" class="form-control" autocomplete="off" />
 						</div>
 					</div>
-					<div class="col-sm-4 col-sm-offset-2">
+					<div class="col-sm-4 col-sm-offset-2 hidden">
 						<div class="inputContainer">
 							<label class="screen-reader-text">住宿要求：</label>
 							<div class="form-control" style="line-height:20px;border:none">
@@ -282,7 +285,7 @@
 							</div>
 						</div>
 					</div>
-					<div id="zssj_area" class="col-sm-4" style="${empty register or register.zsyq eq '不住宿'?'display:none':''}">
+					<div id="zssj_area" class="col-sm-4 hidden" style="${empty register or register.zsyq eq '不住宿'?'display:none':''}">
 						<label class="screen-reader-text">住宿时间：</label>
 						<table style="width:100%">
 							<tr>
@@ -296,7 +299,7 @@
 							</tr>
 						</table>
 					</div>
-					<div class="col-sm-8 col-sm-offset-2">
+					<div class="col-sm-8 col-sm-offset-2 hidden">
 						<div class="inputContainer">
 							<label class="screen-reader-text"><i>备注：</i></label>
 							<textarea name="message" id="message" class="form-control" autocomplete="off" >${register.message}</textarea>
@@ -316,14 +319,14 @@
 						</div>
 					</div>
 
-					<div class="col-sm-4 col-sm-offset-2">
+					<div class="col-sm-4 col-sm-offset-2 hidden">
 						<div class="inputContainer">
 							<label class="screen-reader-text">电子版邀请函发送状态：</label>
 							<input type="text" name="yqhfszt" id="yqhfszt" class="form-control" autocomplete="off" value="${register.yqhfszt}" disabled="disabled" >
 						</div>
 
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-4  hidden">
 						<div class="inputContainer">
 							<label class="screen-reader-text">纸质版邀请函发送状态：</label>
 							<input type="text" name="zfflag" id="zzyqhfszt" class="form-control" autocomplete="off" value="${register.zzyqhfszt}" disabled="disabled" >
@@ -461,7 +464,7 @@
 
 <script type="text/javascript">
 
-	var projectAddress="http://hy.chnfood.cn/2017spkx";
+	var projectAddress="http://www.egeoscience.com.cn/scp_xls";
 //    var projectAddress="http://10.0.0.8/scp_spkx";
 	function not_pc(){
 		var os = new Array("Android","iPhone","Windows Phone","iPod","BlackBerry","MeeGo","SymbianOS");  // 其他类型的移动操作系统类型，自行添加
@@ -641,13 +644,13 @@
                     required:true,
                     equalTo:'#password'
                 },
-                job:'required',
+//                job:'required',
                 title:'required',
                 company:'required',
-                officephone:{
+                /*officephone:{
                     required:true,
                     isTel:true
-                },
+                },*/
                 email: {
                     required: true,
                     email: true
@@ -656,11 +659,11 @@
                     required: true,
                     isPhone:true
                 },
-                address:'required',
-                postcode: {
+                address:'required'
+                /*postcode: {
                     required:true,
                     isZipCode:true
-                }
+                }*/
             },
             messages: {
                 email: "邮箱格式不正确！",
@@ -685,7 +688,7 @@
             success: function (label, element) {
                 $(element).removeAttr("data-original-title");
                 $(element).css('border','1px solid green');
-            },
+            }
         });
 
 		//注册按钮
@@ -693,7 +696,6 @@
 
 			if(!$('#registerForm').valid())
 				return false;
-
 			var that = this;
 			var register = {
 				username:'',
@@ -758,10 +760,10 @@
 				$('#title').focus().attr('placeholder','该项不能为空！');
 				return;
 			}
-			if(!register.job){
+			/*if(!register.job){
 				$('#job').focus().attr('placeholder','该项不能为空！');
 				return;
-			}
+			}*/
 			if(!register.email){
 				$('#email').focus().attr('placeholder','邮箱不能为空！');
 				return;
@@ -774,10 +776,10 @@
 				$('#company').focus().attr('placeholder','该项不能为空！');
 				return;
 			}
-			if(!register.postcode){
+			/*if(!register.postcode){
 				$('#postcode').focus().attr('placeholder','该项不能为空！');
 				return;
-			}
+			}*/
 			if(!register.address){
 				$('#address').focus().attr('placeholder','该项不能为空！');
 				return;
@@ -794,6 +796,7 @@
 				}
 			}
 			 $(that).addClass('disabled');
+//			if ("console" in window)console.log(register);  //TODO:debug
 			RegisterService.hasRegisterByTel(register,function(has){
 				if(!has){
 					// alert(has);
@@ -1139,7 +1142,7 @@
 		</c:choose>
 		$('#zskssj,#zsjssj').inputmask("2099-99-99");
 		$("#telphone").inputmask('19999999999');
-		$("#postcode").inputmask('999999');
+//		$("#postcode").inputmask('999999');
 	});
 </script>
 </body>

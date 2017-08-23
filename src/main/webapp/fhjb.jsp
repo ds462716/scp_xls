@@ -12,8 +12,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport"
 	      content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
-	<link rel="shortcut icon" href="<%=path%>/static/assets/ico/favicon.ico">
-	<title>第三届食品科学与人类健康国际研讨会_食品科学网</title>
+	<%--<link rel="shortcut icon" href="<%=path%>/static/assets/ico/favicon.ico">--%>
+	<title>中国首届接纳承诺疗法（ACT）峰会</title>
 	<link rel="stylesheet" type="text/css" href="<%=path%>/static/spkx/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<%=path%>/static/spkx/css/style.css"/>
 
@@ -28,39 +28,20 @@
 <!-- 头部模块 -->
 <%@include file="/inc/headbar.jsp" %>
 <div class="main">
-	<h2 style="margin-bottom:30px;"><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/>会议内容</h2>
-	<div class="hynr">
-		<div class="left col-sm-8 col-xs-12">
-			<h3>会议主题：食品科学与人类健康理论研究</h3>
-			<h4>1） 食品生物化学专题</h4>
-			<p>包括碳水化合物、蛋白质和酶、脂类、核酸、维生素、矿物质、植物化学物等生化与代谢研究，基因工程、细胞工程、酶工程、基因组学、蛋白质组学和代谢组学等与人类健康相关的基础研究。</p>
-			<h4>2） 食品微生物学专题</h4>
-			<p>包括食品微生物生理与遗传、微生物的相互作用、微生物毒素、致病微生物、预测微生物学和微生物风险评估等基础研究。</p>
-			<h4>3） 食品营养与免疫学专题</h4>
-			<p>包括分子营养学和临床营养学、生物活性物的成分及其功能评价、细胞因子、食物过敏、分子免疫学、免疫遗传学等基础研究。</p>
-			<h4>4） 食品安全与毒理学专题</h4>
-			<p>包括食品中风险化合物、重金属等安全检测和毒理学评价，食源性疾病理论研究等。</p>
-			<h4>5） 蛋品加工及营养功能专题</h4>
-			<p>包括蛋品功能成分研究开发、禽蛋制品加工新技术及质量安全等。</p>
-		</div>
-		<div class="right col-sm-4 col-xs-12">
-			<h3>会议形式</h3>
-			<p>1）邀请国内外知名专家、教授发言
-				<br> 2）参会代表相关研究成果发言
-				<br> 3）论文粘贴
-				<br> 4）参展企业产品展示
-			</p>
-			<div class="line01"></div>
-			<h3>会议语言</h3>
-			<p>中文+英文+同声传译</p>
-			<div class="line01"></div>
-			<h3>会议地点</h3>
-			<p>中国 吉林 长春
-				<br> 会场：长春（详细地点稍后通知）
-				<br> 住宿：长春（详细地点稍后通知）
-			</p>
-		</div>
-		<div class="clear"></div>
+	<h2><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="#">峰会嘉宾</a></h2>
+	<div class="fyhk">
+		<p>
+			祝卓宏 中国科学院心理研究所 教授、博士后导师<br/>
+			方双虎 安徽师范大学心理咨询研究所所长 教授<br/>
+			张  婍 北京联合大学师范学院 心理学系 副教授<br/>
+			高志青 北京市体育科学研究所 副研究员<br/>
+			宗  焱 四川司法警官职业学院 教授<br/>
+			徐守森 首都体育学院运动心理学 副教授<br/>
+			刘希庆 中国政法大学 学生心理健康教育与咨询中心主任<br/>
+			胡茂荣 南昌大学第一附属医院 心身医学科 副主任医师、副教授<br/>
+			曹  慧 北京教育学院 讲师<br/>
+			白晓宇 中国科学院心理研究所 博士后
+		</p>
 	</div>
 </div>
 <%@include file="/inc/footer.jsp"%>

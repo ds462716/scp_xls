@@ -13,7 +13,7 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 			<meta name="description" content="地理科研写作高级研修班">
 			<meta name="author" content="北京国科智地科技有限公司">
-			<link rel="shortcut icon" href="<%=path%>/static/assets/ico/favicon.ico">
+			<%--<link rel="shortcut icon" href="<%=path%>/static/assets/ico/favicon.ico">--%>
 
 			<title>地理科研写作高级研修班（第一期）</title>
 

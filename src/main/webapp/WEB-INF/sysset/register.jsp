@@ -52,8 +52,8 @@
                     <%--<th>电话</th>--%>
                     <%--<th>邮箱</th>--%>
                     <%--<th>注册时间</th>--%>
-                    <th>工作信息 / 论文张贴否 / 住宿安排</th>
-                    <th style="width:150px;min-width:150px;">邀请函发送状态<br>稿件状态</th>
+                    <th>工作信息</th>
+                    <%--<th style="width:150px;min-width:150px;">邀请函发送状态<br>稿件状态</th>--%>
                     <th>会议费<br>缴费状态</th>
                     <%--<th>会务组备注</th>--%>
                     <%--<th>发票抬头</th>--%>
@@ -119,12 +119,7 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="group">
-                            <label class="col-sm-2 control-label">职务</label>
-                            <div class="col-sm-4">
-                                <input type="text" name="job" id="job" class="form-control" autocomplete="off"  >
-                            </div>
-                        </div>
+
                         <div class="group">
                             <label class="col-sm-2 control-label">职称</label>
                             <div class="col-sm-4">
@@ -152,8 +147,6 @@
                                 </select>
                             </div>
                         </div>
-                    </div>
-                    <div class="form-group">
                         <div class="group">
                             <label class="col-sm-2 control-label">单位</label>
                             <div class="col-sm-4">
@@ -162,7 +155,16 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="group">
+
+                    </div>
+                    <div class="form-group">
+                        <div class="group hidden">
+                            <label class="col-sm-2 control-label">职务</label>
+                            <div class="col-sm-4">
+                                <input type="text" name="job" id="job" class="form-control" autocomplete="off"  >
+                            </div>
+                        </div>
+                        <div class="group  hidden">
                             <label class="col-sm-2 control-label">办公电话</label>
                             <div class="col-sm-4">
                                 <input type="text" name="officephone" id="officephone" class="form-control" autocomplete="off" value="${register.officephone}"/>
@@ -174,22 +176,23 @@
                                 <input type="text" name="telphone" id="telphone" value="${register.telphone}" class="form-control" autocomplete="off" ${not empty register?'disabled="disabled"':''}/>
                             </div>
                         </div>
-                    </div>
-                    <div class="form-group">
                         <div class="group">
                             <label class="col-sm-2 control-label">Email</label>
                             <div class="col-sm-4">
                                 <input type="text" name="email" id="email" class="form-control" autocomplete="off" ${not empty register?'disabled="disabled"':''} value="${register.email}"/>
                             </div>
                         </div>
+                    </div>
+                    <div class="form-group">
+
                         <div class="group">
                             <label class="col-sm-2 control-label">联系地址</label>
-                            <div class="col-sm-4">
+                            <div class="col-sm-10">
                                 <input type="text" name="address" id="address" value="${register.address}" class="form-control" autocomplete="off" />
                             </div>
                         </div>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group  hidden">
                         <div class="group">
                             <label class="col-sm-2 control-label">邮编</label>
                             <div class="col-sm-4">
@@ -210,7 +213,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group  hidden">
                         <div class="group">
                             <label class="col-sm-2 control-label">申请会上发言否</label>
                             <div class="col-sm-4">
@@ -232,7 +235,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group  hidden">
                         <div class="group">
                             <label class="col-sm-2 control-label">发言内容摘要（1000字以内）</label>
                             <div class="col-sm-4">
@@ -246,7 +249,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group  hidden">
                         <div class="group">
                             <label class="col-sm-2 control-label">发表论文否</label>
                             <div class="col-sm-4">
@@ -260,7 +263,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="group">
+                        <div class="group hidden">
                             <label class="col-sm-2 control-label">投稿期刊</label>
                             <div class="col-sm-4">
                                 <select id="journalname" name="journalname" class="form-control" value="${register.journalname}" >
@@ -274,21 +277,21 @@
                             </div>
                         </div>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group hidden">
                         <div class="group">
                             <label class="col-sm-2 control-label">稿件编号</label>
                             <div class="col-sm-4">
                                 <input type="text" name="gjbh" id="gjbh" value="${register.gjbh}" class="form-control" autocomplete="off" />
                             </div>
                         </div>
-                        <div class="group">
+                        <div class="group hidden">
                             <label class="col-sm-2 control-label">论文题目</label>
                             <div class="col-sm-4">
                                 <input type="text" name="gjtm" id="gjtm" value="${register.gjtm}" class="form-control" autocomplete="off" />
                             </div>
                         </div>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group hidden">
                         <div class="group">
                             <label class="col-sm-2 control-label">住宿要求</label>
                             <div class="col-sm-4">
@@ -305,7 +308,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="group">
+                        <div class="group hidden">
                             <label class="col-sm-2 control-label">住宿时间</label>
                             <div class="col-sm-4">
                                 <table style="width:100%">
@@ -324,7 +327,7 @@
                     </div>
 
 
-                    <div class="form-group">
+                    <div class="form-group hidden">
                         <div class="group">
                             <label for="gjzt" class="col-sm-2 control-label">稿件状态</label>
                             <div class="col-sm-4">
@@ -351,23 +354,24 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="group">
-                            <label for="invoice" class="col-sm-2 control-label">会议费</label>
-                            <div class="col-sm-4">
-                                <%--<select id="invoice" name="invoice">--%>
-                                    <%--<option value="1400元">1400元</option>--%>
-                                    <%--<option value="2000元">2000元</option>--%>
-                                <%--</select>--%>
-                                <input type="text" name="invoice" id="invoice" value="${register.invoice}" class="form-control" autocomplete="off" />
-                            </div>
-                        </div>
+
                     </div>
 
                     <div class="form-group">
                         <div class="group">
+                            <label for="invoice" class="col-sm-2 control-label">会议费</label>
+                            <div class="col-sm-4">
+                                <%--<select id="invoice" name="invoice">--%>
+                                <%--<option value="1400元">1400元</option>--%>
+                                <%--<option value="2000元">2000元</option>--%>
+                                <%--</select>--%>
+                                <input type="text" name="invoice" id="invoice" value="${register.invoice}" class="form-control" autocomplete="off" />
+                            </div>
+                        </div>
+                        <div class="group">
                             <label for="zfflag" class="col-sm-2 control-label">缴费状态</label>
                             <div class="col-sm-4">
-                                <select id="zfflag" name="zfflag">
+                                <select id="zfflag" name="zfflag" class="form-control" >
                                     <option value=0>未缴纳会议费</option>
                                     <option value=1>已缴纳会议费</option>
                                     <option value=2>收到电子版汇款单</option>
@@ -375,7 +379,7 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="group">
+                        <div class="group hidden">
                             <label for="yqhfszt" class="col-sm-2 control-label">电子版邀请函发送状态</label>
                             <div class="col-sm-4">
                                 <select id="yqhfszt" name="yqhfszt">
@@ -387,7 +391,7 @@
 
                     </div>
                     <div class="form-group">
-                        <div class="group">
+                        <div class="group hidden">
                             <label for="zzyqhfszt" class="col-sm-2 control-label">纸质版邀请函发送状态</label>
                             <div class="col-sm-4">
                                 <select id="zzyqhfszt" name="zzyqhfszt">
@@ -409,20 +413,21 @@
                                 <%--&lt;%&ndash;<input type="text" class="form-control" id="registertime" placeholder="建议英文缩写帐号">&ndash;%&gt;--%>
                             </div>
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="group">
-                            <label class="col-sm-2 control-label">备注</label>
-                            <div class="col-sm-4">
-                                <textarea name="message" id="message" class="form-control" autocomplete="off" >${register.message}</textarea>
-                            </div>
-                        </div>
                         <div class="group">
                             <label for="hwzbz" class="col-sm-2 control-label">会务组备注</label>
                             <div class="col-sm-4">
                                 <textarea type="text" class="form-control" id="hwzbz" placeholder="会务组备注"></textarea>
                             </div>
                         </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="group hidden">
+                            <label class="col-sm-2 control-label">备注</label>
+                            <div class="col-sm-4">
+                                <textarea name="message" id="message" class="form-control" autocomplete="off" >${register.message}</textarea>
+                            </div>
+                        </div>
+
 
                     </div>
 
@@ -596,11 +601,10 @@
                     + '<td>电话：' + item.telphone + ' <br>邮箱：' + item.email + ' <br>性别：' + item.sex + ' <br>注册时间：' + (item.registertime ? item.registertime.substr(0, 16) : '') + '</td>'
 //					+'<td>'+(item.registertime?item.registertime.substr(0,16):'')+'</td>'
 
-                    + '<td>单位：' + item.company + ' <br>职称：' + item.title + '<br>论文张贴：'+item.sfztlw
-                    + (item.zsyq?('<br>住宿要求：'+item.zsyq+(item.zsyq != '不住宿'?('('+(item.zskssj?item.zskssj.substr(0, 10):'')+' -- '+(item.zsjssj?item.zsjssj.substr(0, 10):'') +')'):'')):'')
-                    +'</td>'
-                    + '<td width="100">电子版：' + item.yqhfszt + ' <br>纸质版：' + item.zzyqhfszt + '<br>稿件状态：'+(item.gjzt ? item.gjzt : "")+'</td>'
-                    + '<td width="100">会议费：' + (item.invoice ? item.invoice : "") + ' <br>缴费状态：' + item.zfflag + '</td>'
+                    + '<td>单位：' + item.company + ' <br>职称：' + item.title + '<br>'
+                     +'</td>'
+//                    + '<td width="100">电子版：' + item.yqhfszt + ' <br>纸质版：' + item.zzyqhfszt + '<br>稿件状态：'+(item.gjzt ? item.gjzt : "")+'</td>'
+                    + '<td width="150">会议费：' + (item.invoice ? item.invoice : "") + ' <br>缴费状态：' + item.zfflag + '</td>'
 //                    + '<td>' + (item.hwzbz ? item.hwzbz : "") + '</td>'
 //					+'<td>'+item.fptt+'</td>'
 //					+"<td >"+getfiles(item.tid,item.id,item.zfflag)+"</td>"
