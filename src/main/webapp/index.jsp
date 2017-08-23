@@ -38,8 +38,8 @@
 </div>
 <div class="main">
 	<h2><span><a href="${ctx}/hyjj.jsp">查看更多+</a></span><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="${ctx}/hyjj.jsp">会议简介</a></h2>
-	<div class="hyjs row"> <img src="<%=path%>/static/spkx/images/pic02.png" alt="" class="col-sm-5 col-xs-6" style="margin:0"/>
-		<p class="col-sm-7 col-xs-12">国际语境行为科学协会中国分会（China Chapter of Association for Contextual Behavioral Science，CACBS）将于2017年11月25-26日在北京举办“中国首届接纳承诺疗法（ACT）峰会”，这是中国ACT的顶级盛会，本届ACT峰会将围绕“正念改变之道”的核心主题，邀请国内外ACT专家学者和实践者，展开主题报告、学术型研究报告、应用型报告、会中专题工作坊等形式，与国内ACT爱好者们共享ACT盛宴。</p>
+	<div class="hyjs" style="padding-bottom:50px;">
+		<p class="jj"><img src="<%=path%>/static/spkx/images/pic02.png" alt=""/>国际语境行为科学协会中国分会（China Chapter of Association for Contextual Behavioral Science，CACBS）将于2017年11月25-26日在北京举办“中国首届接纳承诺疗法（ACT）峰会”，这是中国ACT的顶级盛会，本届ACT峰会将围绕“正念改变之道”的核心主题，邀请国内外ACT专家学者和实践者，展开主题报告、学术型研究报告、应用型报告、会中专题工作坊等形式，与国内ACT爱好者们共享ACT盛宴。</p>
 		<div class="clear"></div>
 	</div>
 </div>
