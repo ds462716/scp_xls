@@ -37,7 +37,7 @@ public class DBUtil {
 //				connUser = "meeting";
 //				connPwd = "meeting";
 				
-				connUrl = "jdbc:mysql://localhost:3306/scp_spkx?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true";
+				connUrl = "jdbc:mysql://localhost:3306/scp_xls?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true";
 				connUser = "root";
 //				connPwd = "spkxmysql";
 				connPwd = "mysql";

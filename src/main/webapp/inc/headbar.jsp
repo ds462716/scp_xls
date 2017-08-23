@@ -8,9 +8,9 @@
 		<c:if test="${empty register}">
 			<button class="btn btn-default btn-login">登录</button> <button class="btn btn-default btn-register">注册</button>
 		</c:if>
-		<button class="btn btn-danger btn-enindex">EN</button>
+		<%--<button class="btn btn-danger btn-enindex">EN</button>--%>
 	</div>
-	<div class="imbox"><img src="<%=path%>/static/spkx/images/top_txt.png"><div class="imbox_wz"><h1>第三届食品科学与人类健康国际研讨会</h1><p>2017年8月16~17日　中国　吉林　长春<p></div>
+	<div class="imbox"><img src="<%=path%>/static/spkx/images/top_txt.png"><div class="imbox_wz"><h1>中国首届接纳承诺疗法（ACT）峰会</h1><p>第一轮通知<p></div>
 	</div>
 	<div class="bm">
 		<a href="info.jsp"><img src="<%=path%>/static/spkx/images/top_bm.png"></a>
@@ -21,14 +21,15 @@
 		<ul>
 			<li><a href="index.jsp">会议首页</a></li>
 			<li><a href="zzjg.jsp">组织机构</a></li>
-			<li><a href="hyjj.jsp">会议简介</a></li>
-			<li><a href="zwh.jsp">组委会</a></li>
-			<li><a href="hynr.jsp">会议内容</a></li>
-			<li><a href="hylw.jsp">会议论文</a></li>
-			<li><a href="fyhk.jsp">费用及汇款</a></li>
-			<li><a href="hwz.jsp">会务组</a></li>
+			<li><a href="zwh.jsp">大会主席</a></li>
+			<li><a href="hynr.jsp">时间地点</a></li>
 			<li><a href="bmfs.jsp">报名方式</a></li>
-			<li><a href="download.jsp">资料下载</a></li>
+			<li><a href="hylw.jsp">会议征文</a></li>
+			<li><a href="zwh.jsp">峰会嘉宾</a></li>
+			<li><a href="fyhk.jsp">会议缴费</a></li>
+			<li><a href="bmfs.jsp">招募志愿者</a></li>
+			<li><a href="hwz.jsp">会务组</a></li>
+			<%--<li><a href="download.jsp">资料下载</a></li>--%>
 			<div class="clear"></div>
 		</ul>
 	</div>
@@ -56,18 +57,18 @@
 						<c:if test="${empty register}">
 							<button class="btn btn-success btn-login">登录</button> <button class="btn btn-warning btn-register">注册</button>
 						</c:if>
-						<button class="btn btn-danger btn-enindex">EN</button>
+						<%--<button class="btn btn-danger btn-enindex">EN</button>--%>
 					</li>
 					<li><a href="index.jsp">会议首页</a></li>
 					<li><a href="zzjg.jsp">组织机构</a></li>
-					<li><a href="hyjj.jsp">会议简介</a></li>
-					<li><a href="zwh.jsp">组委会</a></li>
-					<li><a href="hynr.jsp">会议内容</a></li>
-					<li><a href="hylw.jsp">会议论文</a></li>
-					<li><a href="fyhk.jsp">费用及汇款</a></li>
-					<li><a href="hwz.jsp">会务组</a></li>
+					<li><a href="zwh.jsp">大会主席</a></li>
+					<li><a href="hynr.jsp">时间地点</a></li>
 					<li><a href="bmfs.jsp">报名方式</a></li>
-					<li><a href="download.jsp">资料下载</a></li>
+					<li><a href="hylw.jsp">会议征文</a></li>
+					<li><a href="zwh.jsp">峰会嘉宾</a></li>
+					<li><a href="fyhk.jsp">会议缴费</a></li>
+					<li><a href="bmfs.jsp">招募志愿者</a></li>
+					<li><a href="hwz.jsp">会务组</a></li>
 					<div class="clear"></div>
 				</ul>
 			</div>

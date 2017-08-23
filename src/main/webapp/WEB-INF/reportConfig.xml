@@ -27,7 +27,7 @@
 <!--     		<user-name>meeting</user-name> -->
 <!--     		<password>meeting</password> -->
     		
-    		<connection-url>jdbc:mysql://localhost:3306/scp_spkx?useOldAliasMetadataBehavior=true&amp;characterEncoding=utf-8</connection-url>
+    		<connection-url>jdbc:mysql://localhost:3306/scp_xls?useOldAliasMetadataBehavior=true&amp;characterEncoding=utf-8</connection-url>
     		<user-name>root</user-name>
     		<!--<password>spkxmysql</password>-->
             <password>mysql</password>
@@ -80,7 +80,7 @@
     </config>
     <config>
       <name>appUrlPrefix</name>
-      <value>http://hy.chnfood.cn/2017spkx</value>
+      <value></value>
     </config>
     <config>
       <name>errorPage</name>
