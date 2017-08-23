@@ -201,6 +201,18 @@
 	</div>
 </div>
 <div class="main">
+	<h2><span><a href="${ctx}/zmzyz.jsp">查看更多+</a></span><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="${ctx}/zmzyz.jsp">招募志愿者</a></h2>
+	<div class="fyhk">
+		<p>
+
+			报名方式：<br/><a href="https://www.sojump.hk/jq/15938153.aspx" target="_blank">https://www.sojump.hk/jq/15938153.aspx
+		</a><br/>
+			截止日期：2017年09月30日<br/>
+
+	</div>
+</div>
+<div class="main_bg">
+<div class="main">
 	<h2><span><a href="${ctx}/hwz.jsp">查看更多+</a></span><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="${ctx}/hwz.jsp">会务组</a></h2>
 	<div class="fyhk">
 		<p>联系人： 曹静（13261723238） 熊朋迪（15652185065）
@@ -208,6 +220,7 @@
 			<br> 联系电话：01057730993
 			<br> E-mail：act2011@126.com </p>
 	</div>
+</div>
 </div>
 
 <%@include file="/inc/footer.jsp"%>

@@ -37,7 +37,7 @@
 
 <div class="main_bg">
 	<div class="main">
-		<h2><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/>报名&签到</h2>
+		<h2><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/>报名参会</h2>
 		<div class="fyhk">
 			<div class="container-fluid">
 				<%--<div class="row">--%>
