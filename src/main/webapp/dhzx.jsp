@@ -32,8 +32,8 @@
 	<div class="box_qh" id="qh01">
 		<div class="qh_top">
 			<ul id="tabs_head">
-				<li class='menu_tab_li'><a href="#">学术委员会</a></li>
-				<li class='menu_tab_li'><a href="#">组织委员会</a></li>
+				<li class='menu_tab_li'><a href="javascript:;">学术委员会</a></li>
+				<li class='menu_tab_li'><a href="javascript:;">组织委员会</a></li>
 			</ul>
 		</div>
 		<div class="liebbox" id="tabs_body">

@@ -32,7 +32,7 @@
 	<div class="fyhk">
 		<p>
 
-			报名方式：<a href="https://www.sojump.hk/jq/15938153.aspx" target="_blank">https://www.sojump.hk/jq/15938153.aspx
+			报名方式：<br/><a href="https://www.sojump.hk/jq/15938153.aspx" target="_blank">https://www.sojump.hk/jq/15938153.aspx
 		</a><br/>
 			截止日期：2017年09月30日<br/>
 

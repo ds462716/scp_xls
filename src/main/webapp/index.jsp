@@ -37,9 +37,9 @@
 	</marquee>--%>
 </div>
 <div class="main">
-	<h2><span><a href="${ctx}/hyjj.jsp">查看更多+</a></span><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="${ctx}/hyjj.jsp">会议介绍</a></h2>
-	<div class="hyjs row"> <img src="<%=path%>/static/spkx/images/pic02.png" alt="" class="col-sm-5 col-xs-6" style="margin:0"/>
-		<p class="col-sm-7 col-xs-12">国际语境行为科学协会中国分会（China Chapter of Association for Contextual Behavioral Science，CACBS）将于2017年11月25-26日在北京举办“中国首届接纳承诺疗法（ACT）峰会”，这是中国ACT的顶级盛会，本届ACT峰会将围绕“正念改变之道”的核心主题，邀请国内外ACT专家学者和实践者，展开主题报告、学术型研究报告、应用型报告、会中专题工作坊等形式，与国内ACT爱好者们共享ACT盛宴。</p>
+	<h2><span><a href="${ctx}/hyjj.jsp">查看更多+</a></span><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="${ctx}/hyjj.jsp">会议简介</a></h2>
+	<div class="hyjs" style="padding-bottom:50px;">
+		<p class="jj"><img src="<%=path%>/static/spkx/images/pic02.png" alt=""/>国际语境行为科学协会中国分会（China Chapter of Association for Contextual Behavioral Science，CACBS）将于2017年11月25-26日在北京举办“中国首届接纳承诺疗法（ACT）峰会”，这是中国ACT的顶级盛会，本届ACT峰会将围绕“正念改变之道”的核心主题，邀请国内外ACT专家学者和实践者，展开主题报告、学术型研究报告、应用型报告、会中专题工作坊等形式，与国内ACT爱好者们共享ACT盛宴。</p>
 		<div class="clear"></div>
 	</div>
 </div>
@@ -80,12 +80,12 @@
 	</div>
 </div>
 <div class="main">
-	<h2><span><a href="${ctx}/zwh.jsp">查看更多+</a></span><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="${ctx}/zwh.jsp">大会主席</a></h2>
+	<h2><span><a href="${ctx}/dhzx.jsp">查看更多+</a></span><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="${ctx}/dhzx.jsp">大会主席</a></h2>
 	<div class="box_qh" id="qh01">
 		<div class="qh_top">
 			<ul id="tabs_head">
-				<li class='menu_tab_li'><a href="#">学术委员会</a></li>
-				<li class='menu_tab_li'><a href="#">组织委员会</a></li>
+				<li class='menu_tab_li'><a href="javascript:;">学术委员会</a></li>
+				<li class='menu_tab_li'><a href="javascript:;">组织委员会</a></li>
 			</ul>
 		</div>
 		<div class="liebbox" id="tabs_body">
@@ -155,7 +155,7 @@
 		</div>
 </div>
 <div class="main">
-	<h2><span><a href="${ctx}/fyhk.jsp">查看更多+</a></span><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="${ctx}/fyhk.jsp">峰会嘉宾</a></h2>
+	<h2><span><a href="${ctx}/fhjb.jsp">查看更多+</a></span><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="${ctx}/fhjb.jsp">峰会嘉宾</a></h2>
 	<div class="fyhk">
 		<p>
 			祝卓宏 中国科学院心理研究所 教授、博士后导师<br/>
@@ -173,7 +173,7 @@
 </div>
 <div class="main_bg">
 	<div class="main">
-		<h2><span><a href="${ctx}/fyhk.jsp">查看更多+</a></span><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="${ctx}/fyhk.jsp">会议缴费</a></h2>
+		<h2><span><a href="${ctx}/hyjf.jsp">查看更多+</a></span><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="${ctx}/hyjf.jsp">会议缴费</a></h2>
 		<div class="fyhk">
 			<h3>会议费</h3>
 			<p>
@@ -201,6 +201,18 @@
 	</div>
 </div>
 <div class="main">
+	<h2><span><a href="${ctx}/zmzyz.jsp">查看更多+</a></span><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="${ctx}/zmzyz.jsp">招募志愿者</a></h2>
+	<div class="fyhk">
+		<p>
+
+			报名方式：<br/><a href="https://www.sojump.hk/jq/15938153.aspx" target="_blank">https://www.sojump.hk/jq/15938153.aspx
+		</a><br/>
+			截止日期：2017年09月30日<br/>
+
+	</div>
+</div>
+<div class="main_bg">
+<div class="main">
 	<h2><span><a href="${ctx}/hwz.jsp">查看更多+</a></span><img src="<%=path%>/static/spkx/images/ico_tt.png" alt=""/><a href="${ctx}/hwz.jsp">会务组</a></h2>
 	<div class="fyhk">
 		<p>联系人： 曹静（13261723238） 熊朋迪（15652185065）
@@ -208,6 +220,7 @@
 			<br> 联系电话：01057730993
 			<br> E-mail：act2011@126.com </p>
 	</div>
+</div>
 </div>
 
 <%@include file="/inc/footer.jsp"%>
